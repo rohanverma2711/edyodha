@@ -7,6 +7,12 @@ body {
     height: 72px;
     border:2px;
     border-color: white;
+    position: fixed;
+    background : white;
+    top:0;
+    width: 100%;
+    z-index: 1;
+
 }
 
 .NavContent{
@@ -15,6 +21,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 10px;
    
 }
 .leftside{
@@ -90,6 +97,9 @@ font-size: 16px;
     justify-content: space-between;
     padding-top: 30px;
     background-image:url(../public/images/Back\ Ground.png);
+    padding-top: 110px;
+    padding-bottom: 10px;
+    
     
 }
 
@@ -124,7 +134,7 @@ flex-direction: row;
 .LeftBody{
     display: flex;
 flex-direction: column;
-border: 1px solid red;
+
 margin-top: 20px;
 
 }
@@ -173,14 +183,18 @@ padding-top: 5px;
 
 .paymentSection{
     background-color: white;
-    padding:7px;
+    padding:20px;
+    font-family: 'Nunito Sans', sans-serif;
+    color:  #3C4852;
+    border-radius: 8px;
+    
 }
 .TopHeader{
     height: 50px;
     flex-direction: row;
     display: flex;
-    margin-left: 125px;
-    margin-right: 125px;
+    margin-left: 100px;
+    margin-right: 115px;
     justify-content: space-between;
 }
 .circle{
@@ -210,13 +224,16 @@ padding-top: 5px;
 
 .HeaderText{
 
-font-size: 24px;
-font-weight: 500;
+font-size: 20px;
+font-weight: 600;
 line-height: 30px;
 letter-spacing: 0em;
 text-align: center;
-margin-top:20px;
-margin-bottom: 20px;
+margin-top:30px;
+margin-bottom: 30px;
+margin-left: 50px;
+margin-right: 50px;
+
 
     
 }
@@ -233,12 +250,14 @@ margin-bottom: 10px;
 
 
 
+
 }
 
 .PaymentOption2{
     height: 65px;
     border: 2px solid #BEBEBE;
     border-radius: 4px;
+    
 
 
 gap: 12px;
@@ -269,7 +288,7 @@ cursor: pointer;
     padding-top: 0px;
     margin-left: 55px;
     background: #F77171;
-    border-radius: 0px, 0px, 10px, 10px;
+    border-radius:0px 0px 4px 4px;
     color: white;
     justify-content: center;
     align-items: center;
@@ -285,7 +304,7 @@ cursor: pointer;
     padding-top: 0px;
     margin-left: 55px;
     background: #47BA68;
-    border-radius: 0px, 0px, 10px, 10px;
+    border-radius:0px 0px 4px 4px;
     color: white;
     justify-content: center;
     align-items: center;
@@ -384,7 +403,7 @@ margin-left: 10px;
     color:  #3C4852;
     ;
     height: 24px;
-    padding:25px;
+    padding:20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -492,7 +511,7 @@ line-height: 19px;
 letter-spacing: 0em;
 text-align: center;
 color: #DE4313;
-border: 1px solid red;
+
 
 
 }
@@ -505,7 +524,7 @@ line-height: 19px;
 letter-spacing: 0em;
 text-align: center;
 color: #3C4852;
-border: 1px solid red;
+
 
 
 }
@@ -518,7 +537,7 @@ font-weight: 400;
 line-height: 17px;
 letter-spacing: 0em;
 text-align: center;
-border: 1px solid red;
+
 
 
 }
@@ -532,31 +551,53 @@ border: 1px solid red;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
 
 
 }
 
 .leftButton{
-    height: 56px;
+    height: 40px;
     border: 2px solid #F77171;
-    width: 242.5px;
-padding: 10px 42px 10px 42px;
+    width: 230px;
+padding: 0px 38px 12px 38px;
 border-radius: 4px;
 gap: 10px;
+margin-right: 10px;
+font-size: 16px;
+color: #F77171;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+
 
 
 }
 .rightButton{
-    height: 56px;
-    width: 242.5px;
-
-padding: 10px 42px 10px 42px;
+    height: 42px;
+    width: 230px;
+padding:  0px 38px 12px 38px;
 border-radius: 4px;
 gap: 10px;
 background-color: #47BA68;
-;
+color: white;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
 
 
+
+}
+
+.razorpay{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    display: flex;
 }
 
 

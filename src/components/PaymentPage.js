@@ -28,7 +28,7 @@ function PaymentPage() {
 
 
     
-    console.log(price);
+    
   return (
     <>
     <div className='paymentPage'>
@@ -146,18 +146,18 @@ function PaymentPage() {
 
                     </div>
                     <div className='TypeOfSubscription'>
-                      <div style={{marginTop:"10px",fontWeight:"500"}}>  12 Month Subscribtion
+                      <div style={{marginTop:"10px",fontWeight:"600"}}>  12 Month Subscribtion
                         </div>  
                    
                     <div className='OfferPriceEnd'>
 
                         <div className='OfferText'>
-                       <text className='OfferTotal' >Total</text>
+                       <div className='OfferTotal' >Total</div>
                             <div className='OfferNo'>  &#x20B9;19 </div>
 
                         </div>
                         <div className='PricePerMonth'>
-                        &#x20B9;1
+                        &#x20B9;8
 
                             <span className='perMonth'>/mon</span>
 
@@ -200,7 +200,7 @@ function PaymentPage() {
 
                     </div>
                     <div className='TypeOfSubscription'>
-                      <div style={{marginTop:"10px",fontWeight:"500"}}>  {mock.time}
+                      <div style={{marginTop:"10px",fontWeight:"600"}}>  {mock.time}
                         </div>  
                    
                     <div className='OfferPriceEnd'>
@@ -297,7 +297,7 @@ function PaymentPage() {
 
 </div>
 
-<div>
+<div className='razorpay'>
     <img src = {Resources.images.razorpay}></img>
 </div>
      
