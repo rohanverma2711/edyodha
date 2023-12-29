@@ -1,6 +1,6 @@
 # EdYodha 
 
-This project is an assigment for Edyodha Pvt Ltd.
+This project is an assignment for Edyodha Pvt Ltd. This contains the UI for the Home Screen only.
 
 ## Available Scripts
 
